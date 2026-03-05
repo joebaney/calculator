@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  min-width: 400px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 10px 40px 10px;
+  border-radius: 12px;
+}
+
+.screen-container {
+  width: 370px;
+  height: 100px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.top-buttons {
+  width: 370px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+button {
+  padding: 20px 70px;
+  border-radius: 6px;
+  border: none;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+  width: 370px;
+  gap: 5px;
+}
+
+.numbers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  width: 280px;
+}
+
+.signs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90px;
+}
+
+.numbers-btn {
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+}
